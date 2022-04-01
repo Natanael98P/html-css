@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id = em CSS é #
+    em HTML é class = em CSS é .
+*/
+
+body{
+    background-image: linear-gradient(to bottom, #bbbbeb, rgb(78, 77, 93));
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+main{
+    background-color: rgb(40, 90, 131);
+    width: 500px;
+    margin: auto;
+    border-radius: 50px;
+    padding: 50px;
+}
+
+h1{
+    color: rgb(7, 24, 80);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    background-color: rgb(165, 196, 236);
+    padding: 15px;
+    font-style: italic;
+    text-align: justify;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+#titulo-principal{
+    width: 250px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 19px;
+    text-align: center;
+    color: rgb(33, 34, 75);
+    background-image: linear-gradient(to right, rgb(121, 187, 218), rgb(27, 50, 71));
+    
+
+}
+
+h2{
+    color: rgba(8, 50, 61, 0.931);
+}
+.basico{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.intermediario{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.avancado{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.destaque{
+    background-color: yellowgreen;
+}

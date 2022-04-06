@@ -52,6 +52,11 @@ section.imagem {
     background-size: cover;
     background-attachment: fixed;
 }
+section.imagem > p{
+    width: 50vw;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
 section#img01 {
     background-image: url(imagens/background001.jpg);
     background-position: right center;
